@@ -12,20 +12,5 @@ class Solution:
             if max_step >= i and i + jump > max_step:
                 max_step = i + jump
         return max_step >= i
-
-        # for i in range(1, len(nums)):
-        # step = 1
-        # while True:
-        #     step += nums[step]
-        #     if step > flag:
-        #         return False
-        #         break
-        #     elif step == flag:
-        #         return True
-            
-
-
-
-            
 # @lc code=end
 
