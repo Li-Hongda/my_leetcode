@@ -50,7 +50,5 @@ class Solution:
                 res.append(level)
         return res
 
-
-
 # @lc code=end
 

@@ -14,7 +14,6 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         def dfs(node:TreeNode):
-            print(node)
             if not node:
                 return
             dfs(node.left)
