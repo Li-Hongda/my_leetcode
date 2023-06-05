@@ -12,8 +12,6 @@ class Solution:
         sum_ = 0
         for end in range(len(nums)):
             sum_ += nums[end]
-            if sum_ > target:
-                minlen = min(minlen, end-start+1)
             
             while sum_ >= target:
                 minlen  = min(minlen, end-start+1)
